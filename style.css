@@ -1,0 +1,118 @@
+header {
+    width: 100%;
+    position: relative;
+    background-color: rgb(41, 107, 228);
+    color: white;
+    padding: 10px;
+}
+
+h1 {
+    font-size: 36px;
+    text-align: right;
+    margin-right: 25px;
+}
+
+nav {
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: grey;
+    color: white;
+    overflow-x: hidden;
+    padding-top: 16px;
+}
+
+nav a {
+    position: relative;
+    top: 35%;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+}
+
+nav a:hover:not(.active) {
+    cursor: pointer;
+    color: white;
+  }
+
+
+#content {
+    font-size: 26px;
+    position: relative;
+    top: 25px;
+    left: 10%; 
+}
+
+#input {
+    font-size: 22px;
+    text-align: right;
+    color: rgb(173, 173, 173);
+    position: fixed;
+    top: 25%;
+    left: 30%;
+    padding-bottom: 30px;
+}
+
+#input2 {
+    font-size: 22px;
+    text-align: right;
+    color: rgb(173, 173, 173);
+    position: fixed;
+    top: 25%;
+    left: 27%;
+    padding-bottom: 30px;
+}
+
+input {
+    font-size: 22px;
+    text-align: center;
+    border-radius: 10px;
+    border-color: rgb(173, 173, 173);
+    position: relative;
+    padding: 3px 200px 3px 200px;
+}
+
+button {
+    color: rgb(173, 173, 173);
+    cursor: pointer;
+    background: none;
+    border: none;
+    font-size: 22px;
+    margin-left: 10px;
+}
+
+#addButton {
+    position: fixed;
+    left: 50%;
+}
+
+#updateButton {
+    position: fixed;
+    left: 49%
+}
+
+#board {
+    font-size: 45px;
+    font-weight: bolder;
+    position: fixed;
+    top: 45%;
+    left: 45%;
+}
+
+#board2 {
+    color: rgb(173, 173, 173);
+    font-size: 45px;
+    font-weight: bolder;
+    position: fixed;
+    top: 45%;
+    left: 40%;
+}
+
+#board3 {
+    font-size: 26px;
+    position: fixed;
+    top: 55%;
+    left: 45%;
+}
